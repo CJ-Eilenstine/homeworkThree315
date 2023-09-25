@@ -1,8 +1,8 @@
 .about-wrapper {
     display: flex;
     // flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    // justify-content: space-between;
+    // align-items: center;
     width: 100%;
 
 
@@ -10,8 +10,6 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-        width: 50%;
     }
 
 
@@ -20,7 +18,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 300px;
+        max-width: 300px;
 
 
         h2 {
