@@ -109,20 +109,21 @@ nav .cart .button:hover::after, nav .cart .button:focus-visible::after {
 
 .hero {
   min-height: calc(100% - 80px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../images/backup-mochi-banner-web.jpg);
-}
-
-footer {
-  height: 75px;
-  background-color: #faebf8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/backup-mochi-banner-web.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 595px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
 }
-footer i {
-  color: #290a25;
-  padding: 0 5px;
-  font-size: 20px;
+.hero h1 {
+  color: #591730;
+  font-size: 48px;
 }
 
 .flavors {
@@ -151,6 +152,19 @@ footer i {
   font-size: 30px;
   text-align: center;
   font-family: merryweather;
+}
+
+footer {
+  height: 75px;
+  background-color: #faebf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer i {
+  color: #290a25;
+  padding: 0 5px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

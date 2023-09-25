@@ -1,0 +1,13 @@
+footer {
+    height: 75px;
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        color: $text-color;
+        padding: 0 5px;
+        font-size: 20px;
+    }
+}
