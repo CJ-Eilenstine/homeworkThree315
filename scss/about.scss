@@ -1,16 +1,19 @@
 .about-wrapper {
     display: flex;
     // flex-direction: row;
-    // justify-content: space-between;
+    justify-content: space-around;
     // align-items: center;
     width: 100%;
+    padding-right: 20px;
 
-
-    img {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .about-img {
+        img {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
+    
 
 
     .about-text {

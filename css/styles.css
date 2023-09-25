@@ -133,14 +133,18 @@ nav .cart .button:hover::after, nav .cart .button:focus-visible::after {
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
+  min-height: 1000px;
 }
 .flavors .flavor {
   max-width: 300px;
   min-height: 200px;
-  border: 1px #591730;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  justify-content: space-between;
+  width: 200px;
+  height: 350px;
+  border: 1px solid #591730;
+  margin: 20px 30px;
 }
 .flavors .flavor img {
   background-position: center;
@@ -170,9 +174,11 @@ footer i {
 
 .about-wrapper {
   display: flex;
+  justify-content: space-around;
   width: 100%;
+  padding-right: 20px;
 }
-.about-wrapper img {
+.about-wrapper .about-img img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -191,6 +197,28 @@ footer i {
 .about-wrapper .about-text p {
   color: #290a25;
   text-align: center;
+}
+
+.form {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form input {
+  padding: 20px;
+  height: 30px;
+  width: 200px;
+  border: none;
+}
+.form button {
+  padding: 5px 15px;
+  border: 1px solid #eec4be;
+  font-size: 20px;
+  color: #290a25;
+  background-color: #faebf8;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+.form {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+        padding: 20px;
+        height: 30px;
+        width: 200px;
+        border: none;
+    }
+
+    button {
+        padding: 5px 15px;
+        border: 1px solid $secondary-color;
+        font-size: 20px;
+        color: $text-color;
+        background-color: $background-color;
+        cursor: pointer;
+    }
+}
