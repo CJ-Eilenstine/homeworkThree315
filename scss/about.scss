@@ -1,0 +1,36 @@
+.about-wrapper {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+    img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 50%;
+    }
+
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+
+
+        h2 {
+            color: $text-color;
+            text-align: center;
+        }
+
+        p {
+            color: $text-color;
+            text-align: center;
+        }
+    }
+}

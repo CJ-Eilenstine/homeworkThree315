@@ -167,4 +167,32 @@ footer i {
   font-size: 20px;
 }
 
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.about-wrapper img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.about-wrapper .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.about-wrapper .about-text h2 {
+  color: #290a25;
+  text-align: center;
+}
+.about-wrapper .about-text p {
+  color: #290a25;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
